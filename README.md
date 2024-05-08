@@ -24,4 +24,7 @@ Conclusion
 
 This restaurant recommendation system works quite well given its purpose and could be implemented for use. I do believe that given more reviews, more data points, and more locations in general, the better and more useful it will be. I would also consider the removal of fast food chains for the sole reason that  people do not require a system to get them on their radar. They are fairly universal as it is. In addition, this system does not have to be limited to New York City given Tripadvisor’s widespread usage. It would be ideal for the user to limit their search to an area(if added), price range(if added), and/or type(if added), thus filtering the results, increasing usability. 
 
+Link to Dataset:
+
+https://www.kaggle.com/datasets/rayhan32/trip-advisor-newyork-city-restaurants-dataset-10k/data?select=trip+advisor+restaurents++10k+-+trip_rest_neywork_1.csv
 
