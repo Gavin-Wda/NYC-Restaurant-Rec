@@ -18,7 +18,7 @@ System and Evaluation
 
 For this system to work, the relevant fields for forming recommendations needed to be congregated to single entries. These included the Title, Category, Comments, and Popular Food columns. Once done, a vectorizer was created and used to form feature vectors, allowing the use of the cosine_similarity function, giving us the basis for the system. With input from the user of their favorite restaurant I was able to ensure the match using difflib, create a list of similar restaurants with enumerate, sort it in descending order, and then run it through a  for loop that generates the top entries of the list using the matching index column created earlier. - Upon the first run, it appeared to work as intended, listing ten restaurant recommendations based on the user’s input. However, with certain entries it became clear that what was not taken into account was the possibility of multiple reviews of the same restaurant. This would lead to a list of ten recommendations for the same spot. Thus, what felt like the simplest solution was putting an if statement within the if statement so that it did not process the entry if the name matched the user’s input value, moving to the next one in the list. 
 
-<img src="NYC System.png" alt="NYC Banner">
+<img src="NYC System.png" alt="NYC System">
 
 Conclusion 
 
