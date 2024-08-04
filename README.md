@@ -2,7 +2,7 @@
 
 # NYC-Restaurant-Recommendation-System-For-‘Tripadvisor’
 
-Overview 
+Overview
 
 The goal of this project was to process mutiple features pretaining to individual restaurant reviews in order to generate potential recommendations based on user inputs. The data used comes from Tripadvisor, covering thousands of establishments across the city, with customer generated content. The end system implements vectorization of these features and provides a list of similar restaurants based off of cosine_similarity scores. 
 
